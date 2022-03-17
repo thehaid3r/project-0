@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title> Google Advanced Search </title>
+</head>
+
+<body>
+    <div style="margin-bottom: 20px;">
+
+
+        <div class="navbar">
+            <a href="./index.html"><img src="./images/googlelogo_color_272x92dp.png" height="24px" width="244px" alt="">
+            </a>
+
+        </div>
+        <div class="right_side_items">
+
+            <img src="./images/bars.png" width="20px" height="20px" alt="">
+
+
+
+
+            <button class="btn ">
+                Sgin in
+            </button>
+
+        </div>
+    </div>
+    <div style="border-bottom:1px double  #9c9d9e;  padding-bottom:80px; opacity: 1;">
+        <h4
+            style=" font-weight: inherit;color:#d93025; font-size:20px; font-family:Arial,sans-serif;position: absolute;left:50px; top:100px;">
+            Advanced Search
+        </h4>
+    </div>
+    <div class="container1">
+
+
+        <form action="https:/www.google.com/search">
+            <div
+                style=" margin-top: 30px;  margin-bottom: 10px; width:59%;display: flex; justify-content: space-between;">
+                <h4>
+                    Find pages with...
+                </h4>
+                <h4>
+                    To do this in the search box.
+                </h4>
+
+            </div>
+
+
+            <div class="labels">
+
+                <div>
+                    <label for="">all these words:</label>
+                    <input class="input" type="text" name="as_q">
+                    <p> Type the important words: tri-colour rat terrier</p>
+                </div>
+                <div>
+                    <label for="">this exact word or phrase:</label>
+                    <input class="input" type="text" name="as_epq">
+                    <p>Put exact words in quotes: "rat terrier"</p>
+                </div>
+                <div> <label for="">any of these words:
+
+                    </label> <input class="input" type="text" name="as_oq">
+                    <p>Type OR between all the words you want: miniature OR standard</p>
+                </div>
+                <div>
+                    <label for="">none of these words:</label>
+                    <input class="input" type="text" name="as_eq">
+                    <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                </div>
+                <div>
+                    <label for="">numbers ranging from:</label>
+
+                    <input class="inputs" type="text">
+                    <h4> to </h4>
+                    <input class="inputs" type="text">
+
+
+
+                    <p>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500,
+                        2010..2011
+                    </p>
+
+                </div>
+            </div>
+            <input class="advance"  value ="Advance Search" type="submit">
+        </form>
+        <h4 style="margin:10px 0;">
+            Then narrow your results by...
+
+        </h4>
+
+        <div class="labels">
+
+            <div>
+                <label for="">language:</label>
+                <select id="languages" name="languages">
+                    <option>Any language</option>
+                    <option value="af">Afrikaans</option>
+                    <option value="sq">Albanian - shqip</option>
+                    <option value="am">Amharic - አማርኛ</option>
+                    <option value="ar">Arabic - العربية</option>
+                    <option value="an">Aragonese - aragonés</option>
+                    <option value="hy">Armenian - հայերեն</option>
+                    <option value="ast">Asturian - asturianu</option>
+                    <option value="az">Azerbaijani - azərbaycan dili</option>
+                    <option value="eu">Basque - euskara</option>
+                    <option value="be">Belarusian - беларуская</option>
+                    <option value="bn">Bengali - বাংলা</option>
+                    <option value="bs">Bosnian - bosanski</option>
+                    <option value="br">Breton - brezhoneg</option>
+                    <option value="bg">Bulgarian - български</option>
+                    <option value="ca">Catalan - català</option>
+                    <option value="ckb">Central Kurdish - کوردی (دەستنوسی عەرەبی)</option>
+                    <option value="zh">Chinese - 中文</option>
+                    <option value="zh-HK">Chinese (Hong Kong) - 中文（香港）</option>
+                    <option value="zh-CN">Chinese (Simplified) - 中文（简体）</option>
+                    <option value="zh-TW">Chinese (Traditional) - 中文（繁體）</option>
+                    <option value="co">Corsican</option>
+                    <option value="hr">Croatian - hrvatski</option>
+                    <option value="cs">Czech - čeština</option>
+                    <option value="da">Danish - dansk</option>
+                    <option value="nl">Dutch - Nederlands</option>
+                    <option value="en">English</option>
+                    <option value="en-AU">English (Australia)</option>
+                    <option value="en-CA">English (Canada)</option>
+                    <option value="en-IN">English (India)</option>
+                    <option value="en-NZ">English (New Zealand)</option>
+                    <option value="en-ZA">English (South Africa)</option>
+                    <option value="en-GB">English (United Kingdom)</option>
+                    <option value="en-US">English (United States)</option>
+                    <option value="eo">Esperanto - esperanto</option>
+                    <option value="et">Estonian - eesti</option>
+                    <option value="fo">Faroese - føroyskt</option>
+                    <option value="fil">Filipino</option>
+                    <option value="fi">Finnish - suomi</option>
+                    <option value="fr">French - français</option>
+                    <option value="fr-CA">French (Canada) - français (Canada)</option>
+                    <option value="fr-FR">French (France) - français (France)</option>
+                    <option value="fr-CH">French (Switzerland) - français (Suisse)</option>
+                    <option value="gl">Galician - galego</option>
+                    <option value="ka">Georgian - ქართული</option>
+                    <option value="de">German - Deutsch</option>
+                    <option value="de-AT">German (Austria) - Deutsch (Österreich)</option>
+                    <option value="de-DE">German (Germany) - Deutsch (Deutschland)</option>
+                    <option value="de-LI">German (Liechtenstein) - Deutsch (Liechtenstein)</option>
+                    <option value="de-CH">German (Switzerland) - Deutsch (Schweiz)</option>
+                    <option value="el">Greek - Ελληνικά</option>
+                    <option value="gn">Guarani</option>
+                    <option value="gu">Gujarati - ગુજરાતી</option>
+                    <option value="ha">Hausa</option>
+                    <option value="haw">Hawaiian - ʻŌlelo Hawaiʻi</option>
+                    <option value="he">Hebrew - עברית</option>
+                    <option value="hi">Hindi - हिन्दी</option>
+                    <option value="hu">Hungarian - magyar</option>
+                    <option value="is">Icelandic - íslenska</option>
+                    <option value="id">Indonesian - Indonesia</option>
+                    <option value="ia">Interlingua</option>
+                    <option value="ga">Irish - Gaeilge</option>
+                    <option value="it">Italian - italiano</option>
+                    <option value="it-IT">Italian (Italy) - italiano (Italia)</option>
+                    <option value="it-CH">Italian (Switzerland) - italiano (Svizzera)</option>
+                    <option value="ja">Japanese - 日本語</option>
+                    <option value="kn">Kannada - ಕನ್ನಡ</option>
+                    <option value="kk">Kazakh - қазақ тілі</option>
+                    <option value="km">Khmer - ខ្មែរ</option>
+                    <option value="ko">Korean - 한국어</option>
+                    <option value="ku">Kurdish - Kurdî</option>
+                    <option value="ky">Kyrgyz - кыргызча</option>
+                    <option value="lo">Lao - ລາວ</option>
+                    <option value="la">Latin</option>
+                    <option value="lv">Latvian - latviešu</option>
+                    <option value="ln">Lingala - lingála</option>
+                    <option value="lt">Lithuanian - lietuvių</option>
+                    <option value="mk">Macedonian - македонски</option>
+                    <option value="ms">Malay - Bahasa Melayu</option>
+                    <option value="ml">Malayalam - മലയാളം</option>
+                    <option value="mt">Maltese - Malti</option>
+                    <option value="mr">Marathi - मराठी</option>
+                    <option value="mn">Mongolian - монгол</option>
+                    <option value="ne">Nepali - नेपाली</option>
+                    <option value="no">Norwegian - norsk</option>
+                    <option value="nb">Norwegian Bokmål - norsk bokmål</option>
+                    <option value="nn">Norwegian Nynorsk - nynorsk</option>
+                    <option value="oc">Occitan</option>
+                    <option value="or">Oriya - ଓଡ଼ିଆ</option>
+                    <option value="om">Oromo - Oromoo</option>
+                    <option value="ps">Pashto - پښتو</option>
+                    <option value="fa">Persian - فارسی</option>
+                    <option value="pl">Polish - polski</option>
+                    <option value="pt">Portuguese - português</option>
+                    <option value="pt-BR">Portuguese (Brazil) - português (Brasil)</option>
+                    <option value="pt-PT">Portuguese (Portugal) - português (Portugal)</option>
+                    <option value="pa">Punjabi - ਪੰਜਾਬੀ</option>
+                    <option value="qu">Quechua</option>
+                    <option value="ro">Romanian - română</option>
+                    <option value="mo">Romanian (Moldova) - română (Moldova)</option>
+                    <option value="rm">Romansh - rumantsch</option>
+                    <option value="ru">Russian - русский</option>
+                    <option value="gd">Scottish Gaelic</option>
+                    <option value="sr">Serbian - српски</option>
+                    <option value="sh">Serbo-Croatian - Srpskohrvatski</option>
+                    <option value="sn">Shona - chiShona</option>
+                    <option value="sd">Sindhi</option>
+                    <option value="si">Sinhala - සිංහල</option>
+                    <option value="sk">Slovak - slovenčina</option>
+                    <option value="sl">Slovenian - slovenščina</option>
+                    <option value="so">Somali - Soomaali</option>
+                    <option value="st">Southern Sotho</option>
+                    <option value="es">Spanish - español</option>
+                    <option value="es-AR">Spanish (Argentina) - español (Argentina)</option>
+                    <option value="es-419">Spanish (Latin America) - español (Latinoamérica)</option>
+                    <option value="es-MX">Spanish (Mexico) - español (México)</option>
+                    <option value="es-ES">Spanish (Spain) - español (España)</option>
+                    <option value="es-US">Spanish (United States) - español (Estados Unidos)</option>
+                    <option value="su">Sundanese</option>
+                    <option value="sw">Swahili - Kiswahili</option>
+                    <option value="sv">Swedish - svenska</option>
+                    <option value="tg">Tajik - тоҷикӣ</option>
+                    <option value="ta">Tamil - தமிழ்</option>
+                    <option value="tt">Tatar</option>
+                    <option value="te">Telugu - తెలుగు</option>
+                    <option value="th">Thai - ไทย</option>
+                    <option value="ti">Tigrinya - ትግርኛ</option>
+                    <option value="to">Tongan - lea fakatonga</option>
+                    <option value="tr">Turkish - Türkçe</option>
+                    <option value="tk">Turkmen</option>
+                    <option value="tw">Twi</option>
+                    <option value="uk">Ukrainian - українська</option>
+                    <option value="ur">Urdu - اردو</option>
+                    <option value="ug">Uyghur</option>
+                    <option value="uz">Uzbek - o‘zbek</option>
+                    <option value="vi">Vietnamese - Tiếng Việt</option>
+                    <option value="wa">Walloon - wa</option>
+                    <option value="cy">Welsh - Cymraeg</option>
+                    <option value="fy">Western Frisian</option>
+                    <option value="xh">Xhosa</option>
+                    <option value="yi">Yiddish</option>
+                    <option value="yo">Yoruba - Èdè Yorùbá</option>
+                    <option value="zu">Zulu - isiZulu</option>
+                </select>
+                <p> Find pages in the language that you select.</p>
+            </div>
+            <div>
+                <label for="">region:</label>
+                <select name="field_countries" size="1"
+                class="inputbox" id="field_countries">
+                <option value="all">Any region</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Angola">Angola</option>
+                <option value="Benin">Benin</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="DR Congo">DR Congo</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Gabon">Gabon</option>
+                <option value="Gambia">Gambia</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Lesotho">Lesotho</option>
+                <option value="Libya">Libya</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="Malawi">Malawi</option>
+                <option value="Mali">Mali</option>
+                <option value="Mauritius">Mauritius</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Mozambique">Mozambique</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Niger">Niger</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Senegal">Senegal</option>
+                <option value="Seychelles">Seychelles</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Swaziland">Swaziland</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Tunisia">Tunisia</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Zambia">Zambia</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+                <p>Find pages published in a particular region.</p>
+            </div>
+            <div>
+                <label for="">last update:</label>
+                <select name="" id="">
+                    <option value="">Any time</option>
+                    <option value="">Past 24 hours</option>
+                    <option value="">Past week</option>
+                    <option value="">Past month</option>
+                    <option value="">Past year</option>
+                </select>
+                <p>Find pages updated within the time that you specify.</p>
+            </div>
+            <div>
+                <label for="">site or domain:</label>
+                <input class="input" type="text">
+                <p>Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</p>
+            </div>
+            <div>
+                <label for="">terms appearing:
+                </label>
+                <select name="" id="">
+                    <option value="">Anywhere in the page</option>
+                    <option value="">in the title of the page</option>
+                    <option value="">in the text of the page</option>
+                    <option value="">in the URL of the page</option>
+                    <option value="">in the links to the page</option>
+                </select>
+                <p>Search for terms in the whole page, page title or web address, or links to the page you're looking
+                    for.
+                </p>
+            </div>
+            <div>
+                <label for="">SafeSearch:</label>
+
+                <select name="" id="">
+                    <option value="">show explicit results</option>
+                    <option value="">hide explicit results</option>
+                </select>
+                <p>Tell SafeSearch whether to filter sexually explicit content.
+                </p>
+
+            </div>
+            <div>
+                <label for="">file type:</label>
+                <select name="" id="">
+                    <option value="">any format</option>
+                    <option value="">adobe acrobat PDF (.pdf)</option>
+                    <option value="">adobe postscript(.ps)</option>
+                    <option value="">autodesk DWF (.dwf)</option>
+                    <option value="">Google Earth KML (.kml)</option>
+                    <option value="">Google Earth KMZ (.kmz)</option>
+                    <option value="">microsoft Excel (.exl)</option>
+                    <option value="">Microsoft powerpoint (.ppt)</option>
+                    <option value="">Microsoft word (.doc)</option>
+                    <option value="">Rich Text Format (.rtf)</option>
+                    <option value="">ShockWave Flash (.swf)</option>
+                </select>
+                <p>Find pages in the format that you prefer.
+                </p>
+            </div>
+
+            <div>
+                <label for="">usage rights:</label>
+                <select name="" id="">
+                    <option value="">Not Filtered By licence </option>
+                    <option value="">free to use or share</option>
+                    <option value="">free to use or share , even commerically</option>
+                    <option value="">free to use or share or modifiy</option>
+                    <option value="">in the links to the page</option>
+                </select>
+                <p>Find pages that you are free to use yourself.</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="more">
+            
+        
+        <h4>you can also ..</h4>
+        
+              <p> Find pages that are similar to a URL </p>  
+            
+              <p>Search pages that you've visited</p>  
+            
+               <p>Use operators in the search box</p>
+            
+              <p>Customise your search settings</p> 
+              
+            </div>
+
+    </div>
+
+
+    <div class="iraq2 iraq">
+        <li>Iraq</li>
+    </div>
+    
+    <ul>
+        <div>
+            <li>About</li>
+            <li>Adversting</li>
+            <li >Business</li>
+            <li>How Search Works</li>
+        </div>
+        
+        <div>
+            <li>Privacy</li>
+        <li>Terms</li>
+        <li>Setting</li>
+        </div>
+        
+    </ul>
+
+
+
+
+
+
+</body>
+
+</html>
