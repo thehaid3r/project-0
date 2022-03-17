@@ -49,7 +49,7 @@ margin:0;
 }
 .searchbar{
    
-    
+    position: relative;
     display: flex;
     height:20px;
    width:35em;
@@ -76,8 +76,8 @@ i{
 
 }
 .mic2{
-    position: relative;
-    
+    position: absolute;
+    right: 15px;
     cursor: pointer;
 }
 .btn1{
@@ -178,9 +178,9 @@ ul div li:hover{
     color:#70757a;
 }
 .mic{
-    position: relative;
-   right:20px;
-   top:-2px;
+    position: absolute;
+   right:47px;
+   top:10px;
     cursor: pointer;
 }
 .search{
